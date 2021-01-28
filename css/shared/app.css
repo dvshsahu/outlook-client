@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', monospace;
+}
+
+.container {
+    width: 95%;
+    margin:auto;
+    color: #636363;
+}
+.sender > span, .subject > span {
+    font-weight: bolder;
+}
+.filter-list {
+    padding: 12px;
+}
+
+.avatar {
+    width: 72px;
+    margin:20px;
+    text-transform: uppercase;
+    background-color: #E54065;
+    border-radius: 50%;
+
+}
+.avatar > div {
+    margin: 0px 22px;
+    font-size: 40px;
+    color: white;
+}
+.mail-content {
+    margin:4px;
+    
+}
+
+#mail-list {
+    width: 100%;
+}
+.mail-item {
+    height: 100px;
+    width: 100%;
+    margin: 16px;
+    border: 1px solid #CFD2DC;
+    border-radius: 10px;
+    background-color: #F4F5F9;
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.fav-mail {
+    background-color: #f2f2f2;
+}
+
+.mark-fav {
+    background-color: #E54065;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+.favourite {
+ color:  #E54065  
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+.mail-body-main-container {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+}
+
+.dispNone {
+    border:none;
+}
+
+.displayNone {
+    display: none;
+}
